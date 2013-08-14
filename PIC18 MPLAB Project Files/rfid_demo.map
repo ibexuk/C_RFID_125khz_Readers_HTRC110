@@ -1,0 +1,690 @@
+MPLINK 4.34, Linker
+Linker Map File - Created Wed Apr 21 11:55:04 2010
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+           .code___init.o       code   0x000006    program   0x000002
+               highVector       code   0x000008    program   0x000006
+         .romdata_c018i.o    romdata   0x00000e    program   0x000000
+       .romdata_ap-main.o    romdata   0x00000e    program   0x000000
+        .romdata___init.o    romdata   0x00000e    program   0x000000
+          .romdata_rfid.o    romdata   0x00000e    program   0x000000
+          .idata_rfid.o_i    romdata   0x00000e    program   0x000002
+         .idata_c018i.o_i    romdata   0x000010    program   0x000000
+       .idata_ap-main.o_i    romdata   0x000010    program   0x000006
+            .code_c018i.o       code   0x000016    program   0x000000
+        .idata___init.o_i    romdata   0x000016    program   0x000000
+                lowVector       code   0x000018    program   0x000006
+                   .cinit    romdata   0x00001e    program   0x00001a
+             .code_rfid.o       code   0x000038    program   0x0009e6
+          .code_ap-main.o       code   0x000a1e    program   0x000260
+               _cinit_scn       code   0x000c7e    program   0x00009e
+                    .code       code   0x000d1c    program   0x000020
+             _startup_scn       code   0x000d3c    program   0x00001c
+ .config_300001_ap-main.o    romdata   0x300001    program   0x000001
+ .config_300002_ap-main.o    romdata   0x300002    program   0x000001
+ .config_300003_ap-main.o    romdata   0x300003    program   0x000001
+ .config_300005_ap-main.o    romdata   0x300005    program   0x000001
+ .config_300006_ap-main.o    romdata   0x300006    program   0x000001
+ .config_300008_ap-main.o    romdata   0x300008    program   0x000001
+ .config_300009_ap-main.o    romdata   0x300009    program   0x000001
+ .config_30000a_ap-main.o    romdata   0x30000a    program   0x000001
+ .config_30000b_ap-main.o    romdata   0x30000b    program   0x000001
+ .config_30000c_ap-main.o    romdata   0x30000c    program   0x000001
+ .config_30000d_ap-main.o    romdata   0x30000d    program   0x000001
+                 .tmpdata      udata   0x000000       data   0x000004
+        interruptisrh_tmp      udata   0x000004       data   0x000002
+                  acssect      udata   0x000006       data   0x000002
+                MATH_DATA      udata   0x000008       data   0x000002
+            .udata_rfid.o      udata   0x000080       data   0x000026
+           .udata_c018i.o      udata   0x0000a6       data   0x00000a
+         .udata_ap-main.o      udata   0x0000b0       data   0x000008
+         .idata_ap-main.o      idata   0x0000b8       data   0x000006
+            .idata_rfid.o      idata   0x0000be       data   0x000002
+           .idata_c018i.o      idata   0x0000c0       data   0x000000
+          .udata___init.o      udata   0x0000c0       data   0x000000
+          .idata___init.o      idata   0x0000c0       data   0x000000
+                   .stack      udata   0x000200       data   0x000100
+            SFR_UNBANKED0      udata   0x000f80       data   0x000080
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000015      
+                            0x000018    0x000d57      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            3425 out of 16664 program addresses used, program memory utilization is 20%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+         ___else_lbl00129   0x00083e    program     static                          
+         ___else_lbl00131   0x00085a    program     static                          
+         ___else_lbl00133   0x000876    program     static                          
+         ___else_lbl00135   0x000892    program     static                          
+         ___else_lbl00137   0x0008ae    program     static                          
+         ___else_lbl00139   0x0008ca    program     static                          
+         ___else_lbl00141   0x0008e6    program     static                          
+         ___else_lbl00143   0x000902    program     static                          
+           ___if_lbl00015   0x000b86    program     static                          
+           ___if_lbl00017   0x000bb6    program     static                          
+           ___if_lbl00018   0x000bd6    program     static                          
+           ___if_lbl00019   0x000bd6    program     static                          
+           ___if_lbl00020   0x000bf6    program     static                          
+           ___if_lbl00021   0x000c06    program     static                          
+           ___if_lbl00022   0x000c06    program     static                          
+           ___if_lbl00023   0x000c06    program     static                          
+           ___if_lbl00128   0x000840    program     static                          
+           ___if_lbl00130   0x00085c    program     static                          
+           ___if_lbl00132   0x000878    program     static                          
+           ___if_lbl00134   0x000894    program     static                          
+           ___if_lbl00136   0x0008b0    program     static                          
+           ___if_lbl00138   0x0008cc    program     static                          
+           ___if_lbl00140   0x0008e8    program     static                          
+           ___if_lbl00142   0x000904    program     static                          
+           ___if_lbl00144   0x000926    program     static                          
+           ___if_lbl00145   0x00093a    program     static                          
+           ___if_lbl00146   0x00094e    program     static                          
+           ___if_lbl00147   0x000962    program     static                          
+           ___if_lbl00148   0x000976    program     static                          
+           ___if_lbl00149   0x00098a    program     static                          
+           ___if_lbl00150   0x00099e    program     static                          
+           ___if_lbl00151   0x0009b6    program     static                          
+           ___if_lbl00152   0x0009b6    program     static                          
+       ___return_lbl00000   0x000a5c    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00001   0x000a6a    program     static                          
+       ___return_lbl00001   0x000d56    program     static                          
+       ___return_lbl00002   0x000d1a    program     static                          
+       ___return_lbl00011   0x00000c    program     static                          
+       ___return_lbl00012   0x00001c    program     static                          
+       ___return_lbl00013   0x000c06    program     static                          
+       ___return_lbl00127   0x0009bc    program     static                          
+       ___return_lbl00153   0x000a18    program     static                          
+        ___while_lbl00002   0x000a60    program     static                          
+        ___while_lbl00003   0x000a6a    program     static                          
+               __config_0   0x300001    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_1   0x300002    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+              __config_10   0x30000d    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_2   0x300003    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_3   0x300005    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_4   0x300006    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_5   0x300008    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_6   0x300009    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_7   0x30000a    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_8   0x30000b    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_9   0x30000c    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+                   __init   0x000006    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+               __tmplbl_0   0x000b1c    program     static                          
+               __tmplbl_1   0x000b16    program     static                          
+               __tmplbl_2   0x000b92    program     static                          
+               __tmplbl_3   0x000b8c    program     static                          
+            __zero_memory   0x000d1c    program     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                _do_cinit   0x000c7e    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                 _startup   0x000d3c    program     extern C:\MCC18\src\traditional\startup\c018i.c
+             athighvector   0x000008    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+              atlowvector   0x000018    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+                compare_l   0x000d32    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                copy_loop   0x000cf0    program     static                          
+            copy_one_byte   0x000cf6    program     static                          
+                     done   0x000d1a    program     static                          
+             done_copying   0x000d04    program     static                          
+               initialise   0x000a1e    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            interruptisrh   0x000abc    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            interruptisrl   0x000c58    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+                     loop   0x000d4c    program     static                          
+                   loop_h   0x000d2a    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                   loop_l   0x000d34    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                     main   0x000a5e    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+        process_user_mode   0x000a6c    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+        rfid_end_read_tag   0x000a1a    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+    rfid_force_initialise   0x000062    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+ rfid_get_read_tag_result   0x000040    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+             rfid_process   0x000074    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+            rfid_read_tag   0x000038    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+rfid_sampling_rising_edge   0x00032c    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+rfid_sampling_rising_edge_add_bit   0x000640    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+      rfid_start_read_tag   0x0009c6    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+          rfid_tx_rx_byte   0x000808    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                     test   0x000c98    program     static                          
+               zero_block   0x000d2a    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  BAUDCTL   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PWM1CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              PWM1CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     SIGN   0x000008       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                        W   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                __FPFLAGS   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                  __tmp_0   0x000000       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                  __tmp_1   0x000004       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+             asm_irq_temp   0x000006       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+            asm_irq_temp1   0x000007       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+                   b_temp   0x00009f       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+ biphase_header_bit_count   0x00009b       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                bit_index   0x0000a1       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                curr_byte   0x0000a9       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000ab       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0000ad       data     static C:\MCC18\src\traditional\startup\c018i.c
+               doing_read   0x0000ba       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+  general_use_100ms_timer   0x0000b0       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+   general_use_10ms_timer   0x0000b8       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+           hb_100ms_timer   0x0000bc       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            hb_10ms_timer   0x0000bb       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            hb_1sec_timer   0x0000bd       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+           last_bit_state   0x00009e       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+manchester_header_bit_count   0x00009a       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+             nibble_index   0x0000a0       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+               no_of_ones   0x0000a3       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+        parity_check_data   0x0000a4       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                     prom   0x0000a6       data     static C:\MCC18\src\traditional\startup\c018i.c
+             return_value   0x0000a2       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+           rfid_1ms_timer   0x000090       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+       rfid_1us_125_value   0x000095       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+       rfid_1us_175_value   0x000097       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+        rfid_1us_bit_rate   0x000091       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+           rfid_bit_count   0x000083       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+            rfid_bit_type   0x000099       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+       rfid_capture_state   0x000082       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+               rfid_carry   0x00009d       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+        rfid_data_nibbles   0x000085       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+                rfid_gain   0x000080       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+rfid_modulation_is_manchester   0x00009c       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+    rfid_read_tag_pending   0x0000be       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+    rfid_read_tag_success   0x000081       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+               rfid_state   0x0000bf       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+         rfid_timer_value   0x0000b4       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+    rfid_timer_value_last   0x0000b6       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+         rfid_tries_count   0x000084       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+                   w_temp   0x000093       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                   w_temp   0x0000b2       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                   __init   0x000006    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+             athighvector   0x000008    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+       ___return_lbl00011   0x00000c    program     static                          
+              atlowvector   0x000018    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+       ___return_lbl00012   0x00001c    program     static                          
+            rfid_read_tag   0x000038    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+ rfid_get_read_tag_result   0x000040    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+    rfid_force_initialise   0x000062    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+             rfid_process   0x000074    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+rfid_sampling_rising_edge   0x00032c    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+rfid_sampling_rising_edge_add_bit   0x000640    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+          rfid_tx_rx_byte   0x000808    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+         ___else_lbl00129   0x00083e    program     static                          
+           ___if_lbl00128   0x000840    program     static                          
+         ___else_lbl00131   0x00085a    program     static                          
+           ___if_lbl00130   0x00085c    program     static                          
+         ___else_lbl00133   0x000876    program     static                          
+           ___if_lbl00132   0x000878    program     static                          
+         ___else_lbl00135   0x000892    program     static                          
+           ___if_lbl00134   0x000894    program     static                          
+         ___else_lbl00137   0x0008ae    program     static                          
+           ___if_lbl00136   0x0008b0    program     static                          
+         ___else_lbl00139   0x0008ca    program     static                          
+           ___if_lbl00138   0x0008cc    program     static                          
+         ___else_lbl00141   0x0008e6    program     static                          
+           ___if_lbl00140   0x0008e8    program     static                          
+         ___else_lbl00143   0x000902    program     static                          
+           ___if_lbl00142   0x000904    program     static                          
+           ___if_lbl00144   0x000926    program     static                          
+           ___if_lbl00145   0x00093a    program     static                          
+           ___if_lbl00146   0x00094e    program     static                          
+           ___if_lbl00147   0x000962    program     static                          
+           ___if_lbl00148   0x000976    program     static                          
+           ___if_lbl00149   0x00098a    program     static                          
+           ___if_lbl00150   0x00099e    program     static                          
+           ___if_lbl00152   0x0009b6    program     static                          
+           ___if_lbl00151   0x0009b6    program     static                          
+       ___return_lbl00127   0x0009bc    program     static                          
+      rfid_start_read_tag   0x0009c6    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+       ___return_lbl00153   0x000a18    program     static                          
+        rfid_end_read_tag   0x000a1a    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+               initialise   0x000a1e    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+       ___return_lbl00000   0x000a5c    program     static                          
+                     main   0x000a5e    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+        ___while_lbl00002   0x000a60    program     static                          
+       ___return_lbl00001   0x000a6a    program     static                          
+        ___while_lbl00003   0x000a6a    program     static                          
+        process_user_mode   0x000a6c    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            interruptisrh   0x000abc    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __tmplbl_1   0x000b16    program     static                          
+               __tmplbl_0   0x000b1c    program     static                          
+           ___if_lbl00015   0x000b86    program     static                          
+               __tmplbl_3   0x000b8c    program     static                          
+               __tmplbl_2   0x000b92    program     static                          
+           ___if_lbl00017   0x000bb6    program     static                          
+           ___if_lbl00019   0x000bd6    program     static                          
+           ___if_lbl00018   0x000bd6    program     static                          
+           ___if_lbl00020   0x000bf6    program     static                          
+           ___if_lbl00023   0x000c06    program     static                          
+           ___if_lbl00022   0x000c06    program     static                          
+           ___if_lbl00021   0x000c06    program     static                          
+       ___return_lbl00013   0x000c06    program     static                          
+            interruptisrl   0x000c58    program     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+                _do_cinit   0x000c7e    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x000c98    program     static                          
+                copy_loop   0x000cf0    program     static                          
+            copy_one_byte   0x000cf6    program     static                          
+             done_copying   0x000d04    program     static                          
+                     done   0x000d1a    program     static                          
+       ___return_lbl00002   0x000d1a    program     static                          
+            __zero_memory   0x000d1c    program     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   loop_h   0x000d2a    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+               zero_block   0x000d2a    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                compare_l   0x000d32    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                   loop_l   0x000d34    program     static C:\MCC18\src\traditional\proc\p18F2420.asm
+                 _startup   0x000d3c    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x000d4c    program     static                          
+       ___return_lbl00001   0x000d56    program     static                          
+               __config_0   0x300001    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_1   0x300002    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_2   0x300003    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_3   0x300005    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_4   0x300006    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_5   0x300008    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_6   0x300009    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_7   0x30000a    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_8   0x30000b    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+               __config_9   0x30000c    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+              __config_10   0x30000d    program     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+                  __tmp_0   0x000000       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                  __tmp_1   0x000004       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+             asm_irq_temp   0x000006       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+            asm_irq_temp1   0x000007       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+                     SIGN   0x000008       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                rfid_gain   0x000080       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+    rfid_read_tag_success   0x000081       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+       rfid_capture_state   0x000082       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+           rfid_bit_count   0x000083       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+         rfid_tries_count   0x000084       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+        rfid_data_nibbles   0x000085       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+           rfid_1ms_timer   0x000090       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+        rfid_1us_bit_rate   0x000091       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                   w_temp   0x000093       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+       rfid_1us_125_value   0x000095       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+       rfid_1us_175_value   0x000097       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+            rfid_bit_type   0x000099       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+manchester_header_bit_count   0x00009a       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+ biphase_header_bit_count   0x00009b       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+rfid_modulation_is_manchester   0x00009c       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+               rfid_carry   0x00009d       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+           last_bit_state   0x00009e       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                   b_temp   0x00009f       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+             nibble_index   0x0000a0       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                bit_index   0x0000a1       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+             return_value   0x0000a2       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+               no_of_ones   0x0000a3       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+        parity_check_data   0x0000a4       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c
+                     prom   0x0000a6       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x0000a9       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000ab       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0000ad       data     static C:\MCC18\src\traditional\startup\c018i.c
+  general_use_100ms_timer   0x0000b0       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+                   w_temp   0x0000b2       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+         rfid_timer_value   0x0000b4       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+    rfid_timer_value_last   0x0000b6       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+   general_use_10ms_timer   0x0000b8       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h
+               doing_read   0x0000ba       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            hb_10ms_timer   0x0000bb       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+           hb_100ms_timer   0x0000bc       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+            hb_1sec_timer   0x0000bd       data     static C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c
+    rfid_read_tag_pending   0x0000be       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+               rfid_state   0x0000bf       data     extern C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              PWM1CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PWM1CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  BAUDCTL   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                        W   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2420.asm
+
+

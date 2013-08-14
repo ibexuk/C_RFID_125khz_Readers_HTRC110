@@ -1,0 +1,181 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BOOL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	75;"	d	line:75
+BOOL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	86;"	t	line:86
+BYTE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	78;"	d	line:78
+BYTE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	88;"	t	line:88
+BYTE_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	115;"	t	line:115
+CONSTANT::constrom	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	73;"	d	line:73
+DISABLE_INT::INTCONbits.GIE=0	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	59;"	d	line:59
+DWORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	82;"	d	line:82
+DWORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	96;"	t	line:96
+DWORD_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	148;"	t	line:148
+ENABLE_INT::INTCONbits.GIE=1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	58;"	d	line:58
+FALSE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	77;"	d	line:77
+FALSE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	86;"	e	line:86	enum:_BOOL
+GLOBAL_DATA_TYPE_INIT	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	71;"	d	line:71
+GREEN_LED_ON::LATBbits.LATB4	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	26;"	d	line:26
+HILSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	139;"	m	line:139	struct:_DWORD_VAL::<anonymous>
+HIMSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	140;"	m	line:140	struct:_DWORD_VAL::<anonymous>
+INSTRUCTION_CLOCK_FREQUENCY::2000000	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	52;"	d	line:52
+LOLSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	137;"	m	line:137	struct:_DWORD_VAL::<anonymous>
+LOMSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	138;"	m	line:138	struct:_DWORD_VAL::<anonymous>
+LOWER_LSB::(a)((a).v[0])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	149;"	d	line:149
+LOWER_MSB::(a)((a).v[1])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	150;"	d	line:150
+LSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	123;"	m	line:123	struct:_WORD_VAL::<anonymous>
+LSB::(a)((a).v[0])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	128;"	d	line:128
+LSW	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	144;"	m	line:144	struct:_DWORD_VAL::<anonymous>
+MAIN_C::	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	14;"	d	line:14	file:
+MAIN_C_INIT	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	21;"	d	line:21
+MSB	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	124;"	m	line:124	struct:_WORD_VAL::<anonymous>
+MSB::(a)((a).v[1])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	129;"	d	line:129
+MSW	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	145;"	m	line:145	struct:_DWORD_VAL::<anonymous>
+RED_LED_ON::LATBbits.LATB3	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	25;"	d	line:25
+RFID_BIT_DELAY::Nop;Nop;Nop	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	155;"	d	line:155
+RFID_C	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	13;"	d	line:13	file:
+RFID_CAPTURE_FAILED	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	187;"	e	line:187	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_FAILED_GIVEN_UP	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	188;"	e	line:188	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_GET_BIT_RATE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	183;"	e	line:183	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_GET_DATA	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	185;"	e	line:185	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_GET_HEADER	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	184;"	e	line:184	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_INITIALISE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	182;"	e	line:182	enum:_SM_RFID_CAPTURE
+RFID_CAPTURE_SUCCESS	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	186;"	e	line:186	enum:_SM_RFID_CAPTURE
+RFID_CLEAR_MISO_RISING_EDGE_IRQ::INTCONbits.INT0IF=0	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	143;"	d	line:143
+RFID_C_INIT	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	118;"	d	line:118
+RFID_DISABLE_MISO_RISING_EDGE_IRQ::INTCONbits.INT0IE=0	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	142;"	d	line:142
+RFID_ENABLE_MISO_RISING_EDGE_IRQ::INTCONbits.INT0IE=1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	141;"	d	line:141
+RFID_IDLE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	172;"	e	line:172	enum:_SM_RFID
+RFID_INITIALISE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	169;"	e	line:169	enum:_SM_RFID
+RFID_INITIALISE_1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	170;"	e	line:170	enum:_SM_RFID
+RFID_MISO::PORTCbits.RC4	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	126;"	d	line:126
+RFID_MOSI::(state)LATCbits.LATC5=state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	125;"	d	line:125
+RFID_READ_FAIL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	177;"	e	line:177	enum:_SM_RFID
+RFID_READ_TAG_1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	173;"	e	line:173	enum:_SM_RFID
+RFID_READ_TAG_2	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	174;"	e	line:174	enum:_SM_RFID
+RFID_READ_TAG_3	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	175;"	e	line:175	enum:_SM_RFID
+RFID_READ_TAG_READING	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	176;"	e	line:176	enum:_SM_RFID
+RFID_SCLK::(state)LATCbits.LATC1=state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	124;"	d	line:124
+RFID_SETUP_DELAY::Nop	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	154;"	d	line:154
+RFID_SET_IDLE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	171;"	e	line:171	enum:_SM_RFID
+RFID_SPI_SAMPLE_CS_PIN::(state)LATCbits.LATC0=state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	128;"	d	line:128
+RFID_T_OC::0x3F	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	163;"	d	line:163
+SIGNED_BYTE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	79;"	d	line:79
+SIGNED_BYTE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	90;"	t	line:90
+SIGNED_DWORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	83;"	d	line:83
+SIGNED_DWORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	98;"	t	line:98
+SIGNED_WORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	81;"	d	line:81
+SIGNED_WORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	94;"	t	line:94
+SM_RFID	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	178;"	t	line:178
+SM_RFID_CAPTURE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	189;"	t	line:189
+TRUE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	76;"	d	line:76
+TRUE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	86;"	e	line:86	enum:_BOOL
+UPPER_LSB::(a)((a).v[2])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	151;"	d	line:151
+UPPER_MSB::(a)((a).v[3])	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	152;"	d	line:152
+Val	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	114;"	m	line:114	union:_BYTE_VAL
+WORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	80;"	d	line:80
+WORD	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	92;"	t	line:92
+WORD_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	127;"	t	line:127
+_BOOL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	86;"	g	line:86
+_BYTE_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	101;"	u	line:101
+_DWORD_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	132;"	u	line:132
+_SM_RFID	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	167;"	g	line:167
+_SM_RFID_CAPTURE	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	180;"	g	line:180
+_WORD_VAL	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	118;"	u	line:118
+asm_irq_temp	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	84;"	v	line:84
+asm_irq_temp1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	85;"	v	line:85
+athighvector	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	439;"	f	line:439	signature:(void)
+atlowvector	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	449;"	f	line:449	signature:(void)
+b0	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	105;"	m	line:105	struct:_BYTE_VAL::<anonymous>
+b1	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	106;"	m	line:106	struct:_BYTE_VAL::<anonymous>
+b2	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	107;"	m	line:107	struct:_BYTE_VAL::<anonymous>
+b3	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	108;"	m	line:108	struct:_BYTE_VAL::<anonymous>
+b4	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	109;"	m	line:109	struct:_BYTE_VAL::<anonymous>
+b5	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	110;"	m	line:110	struct:_BYTE_VAL::<anonymous>
+b6	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	111;"	m	line:111	struct:_BYTE_VAL::<anonymous>
+b7	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	112;"	m	line:112	struct:_BYTE_VAL::<anonymous>
+b_temp	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	369;"	l	line:369	file:
+biphase_header_bit_count	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	365;"	l	line:365	file:
+bit_index	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	779;"	l	line:779	file:
+bits	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	113;"	m	line:113	union:_BYTE_VAL
+byte	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	125;"	m	line:125	union:_WORD_VAL
+byte	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	141;"	m	line:141	union:_DWORD_VAL
+count	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	86;"	l	line:86
+doing_read	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	375;"	l	line:375	file:
+general_use_100ms_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	94;"	v	line:94
+general_use_10ms_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	93;"	v	line:93
+hb_100ms_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	468;"	l	line:468	file:
+hb_10ms_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	467;"	l	line:467	file:
+hb_1sec_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	469;"	l	line:469	file:
+initialise	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	117;"	f	line:117	signature:(void)
+initialise	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	46;"	p	line:46	signature:(void)
+interruptisrh	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	465;"	f	line:465	signature:(void)
+interruptisrh	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	48;"	p	line:48	signature:(void)
+interruptisrl	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	617;"	f	line:617	signature:(void)
+interruptisrl	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	49;"	p	line:49	signature:(void)
+last_bit_state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	368;"	l	line:368	file:
+main	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	329;"	f	line:329	signature:( void )
+manchester_header_bit_count	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	364;"	l	line:364	file:
+nibble_index	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	778;"	l	line:778	file:
+no_of_ones	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	781;"	l	line:781	file:
+parity_check_data	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	782;"	l	line:782	file:
+process_user_mode	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	373;"	f	line:373	signature:(void)
+process_user_mode	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.h	47;"	p	line:47	signature:(void)
+response	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	84;"	l	line:84
+result	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	376;"	l	line:376
+return_value	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	780;"	l	line:780	file:
+rfid_1ms_timer	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	260;"	v	line:260
+rfid_1us_125_value	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	361;"	l	line:361	file:
+rfid_1us_175_value	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	362;"	l	line:362	file:
+rfid_1us_bit_rate	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	359;"	l	line:359	file:
+rfid_bit_count	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	250;"	v	line:250
+rfid_bit_type	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	363;"	l	line:363	file:
+rfid_capture_state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	249;"	v	line:249
+rfid_carry	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	367;"	l	line:367	file:
+rfid_data_nibbles	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	258;"	v	line:258
+rfid_end_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	1178;"	f	line:1178	signature:(void)
+rfid_end_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	206;"	p	line:206	signature:(void)
+rfid_force_initialise	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	64;"	f	line:64	signature:(void)
+rfid_force_initialise	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	216;"	p	line:216	signature:(void)
+rfid_force_initialise	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	227;"	p	line:227	signature:(void)
+rfid_gain	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	246;"	v	line:246
+rfid_get_read_tag_result	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	41;"	f	line:41	signature:(void)
+rfid_get_read_tag_result	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	215;"	p	line:215	signature:(void)
+rfid_get_read_tag_result	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	226;"	p	line:226	signature:(void)
+rfid_modulation_is_manchester	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	366;"	l	line:366	file:
+rfid_process	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	81;"	f	line:81	signature:(void)
+rfid_process	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	217;"	p	line:217	signature:(void)
+rfid_process	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	228;"	p	line:228	signature:(void)
+rfid_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	26;"	f	line:26	signature:(void)
+rfid_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	214;"	p	line:214	signature:(void)
+rfid_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	225;"	p	line:225	signature:(void)
+rfid_read_tag_pending	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	247;"	v	line:247
+rfid_read_tag_success	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	248;"	v	line:248
+rfid_sampling_rising_edge	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	357;"	f	line:357	signature:(WORD us_since_last_rising_edge)
+rfid_sampling_rising_edge	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	218;"	p	line:218	signature:(WORD us_since_last_rising_edge)
+rfid_sampling_rising_edge	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	229;"	p	line:229	signature:(WORD us_since_last_rising_edge)
+rfid_sampling_rising_edge_add_bit	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	776;"	f	line:776	signature:(BYTE bit_state)
+rfid_sampling_rising_edge_add_bit	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	207;"	p	line:207	signature:(BYTE bit_state)
+rfid_start_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	1122;"	f	line:1122	signature:(void)
+rfid_start_read_tag	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	205;"	p	line:205	signature:(void)
+rfid_state	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	259;"	v	line:259
+rfid_timer_value	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	471;"	l	line:471	file:
+rfid_timer_value_last	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	472;"	l	line:472	file:
+rfid_tries_count	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	251;"	v	line:251
+rfid_tx_rx_byte	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	935;"	f	line:935	signature:(BYTE tx_data, BYTE get_response)
+rfid_tx_rx_byte	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.h	204;"	p	line:204	signature:(BYTE tx_data, BYTE get_response)
+rx_data	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	937;"	l	line:937
+t_ant	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	85;"	l	line:85
+tx_data	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	83;"	l	line:83
+v	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	126;"	m	line:126	union:_WORD_VAL
+v	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	147;"	m	line:147	union:_DWORD_VAL
+val	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	120;"	m	line:120	union:_WORD_VAL
+val	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	134;"	m	line:134	union:_DWORD_VAL
+w_temp	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\ap-main.c	470;"	l	line:470	file:
+w_temp	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\rfid.c	360;"	l	line:360	file:
+word	C:\_EC\_PROJ\4934 125kHz RFID Reader Driver\Firm\V1-00\main.h	146;"	m	line:146	union:_DWORD_VAL
